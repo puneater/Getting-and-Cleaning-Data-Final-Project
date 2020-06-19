@@ -14,7 +14,7 @@ The tidyData consists of 81 columns, as follows:
 
  [2] activity : The lables for the activities performed by the volunteers. ["LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"] [character]
 
-Now are the measurement variables, explanation for them can be found below
+Now are the measurement variables, explaination for them can be found below
 
  [3] "timeBodyAccelerometer-mean()-X"                    
  [4] "timeBodyAccelerometer-mean()-Y"                    
@@ -89,6 +89,7 @@ Now are the measurement variables, explanation for them can be found below
 [73] "frequencyBodyAccelerometerJerkMagnitude-mean()"    
 [74] "frequencyBodyAccelerometerJerkMagnitude-std()"     
 [75] "frequencyBodyAccelerometerJerkMagnitude-meanFreq()"
+
 [76] "frequencyBodyGyroscopeMagnitude-mean()"            
 [77] "frequencyBodyGyroscopeMagnitude-std()"             
 [78] "frequencyBodyGyroscopeMagnitude-meanFreq()"        
