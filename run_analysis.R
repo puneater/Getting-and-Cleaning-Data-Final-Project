@@ -85,5 +85,6 @@ names(allData)[-c(1:2)] <- gsub("Mag","Magnitude",names(allData)[-c(1:2)])
 tidyData<-aggregate(. ~ subject + activity, allData, mean)
 tidyData<-tidyData[order(tidyData$subject,tidyData$activity),]
 
-#  saving tidyData
-save(tidyData, file = "tidyData.txt")
+#  saving tidy data using write.table and write.csv
+write.table(tidyData, file = "tidyData.txt", row.names = FALSE)
+write.csv(tidyData, file = "tidyData.csv", row.names = FALSE)
